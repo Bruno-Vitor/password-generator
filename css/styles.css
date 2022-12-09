@@ -9,7 +9,6 @@
 html, body {
   height: auto;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 html {
@@ -20,6 +19,7 @@ input:focus {
   outline: none;
 }
 
+/* container */
 #register-container {
   display: flex;
   max-width: 90vw;
@@ -34,11 +34,18 @@ input:focus {
   }
 }
 
+/* banner */
 #register-banner {
   background: url('../img/bg-form.jpg');
   background-size: cover;
   background-position: center;
   width: 50%;
+}
+
+@media screen and (max-width: 769px) {
+  #register-banner {
+    width: 100%;
+  }
 }
 
 #banner-layer {
@@ -56,12 +63,19 @@ input:focus {
   word-spacing: 50rem;
 }
 
+/* form */
 #register-form {
   display: flex;
   flex-direction: column;
   background-color: #fdfdfd;
   padding: 2rem;
   width: 50%;
+}
+
+@media screen and (max-width: 769px) {
+  #register-form {
+    width: 100%;
+  }
 }
 
 #register-form h2 {
@@ -94,6 +108,7 @@ input:focus {
   padding: .6rem 0;
 }
 
+/* password */
 #generate-password {
   font-weight: bold;
   cursor: pointer;
