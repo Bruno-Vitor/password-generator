@@ -16,7 +16,7 @@ O projeto consiste em um formulário que gera uma senha segura para os usuários
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://www.javascript.com/)
 
 ---
